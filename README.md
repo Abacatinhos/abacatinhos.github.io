@@ -1,7 +1,7 @@
 <p align="center">
     <img src="https://img.shields.io/badge/vue-js-%234FC08D.svg?&style=for-the-badge&logo=vue-js&logoColor=white">
     <img src="https://img.shields.io/badge/nuxt-js-%2300C58E.svg?&style=for-the-badge&logo=nuxt-js&logoColor=white">
-    <img src="https://img.shields.io/github/license/Abacatinhos/site-oficial?style=for-the-badge">
+    <img src="https://img.shields.io/github/license/Abacatinhos/abacatinhos.github.io?style=for-the-badge">
 </p>
 
 # ⭐ Site oficial da Abacatinhos.dev
