@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'abacatinhos.dev',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'pt-br',
     },
     meta: [
       { charset: 'utf-8' },
