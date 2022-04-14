@@ -19,7 +19,7 @@ export default {
 
 <style>
 .about-section {
-  background-color: whitesmoke;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;

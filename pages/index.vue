@@ -2,6 +2,7 @@
   <div class="app">
     <Header />
     <HeroSection />
+    <DevrelSection />
     <AboutSection />
     <MentorSection />
     <JoinSection />

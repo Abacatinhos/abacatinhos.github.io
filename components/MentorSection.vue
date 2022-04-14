@@ -33,7 +33,7 @@ export default {
 .mentor-section {
   justify-content: space-around;
 
-  background-color: white;
+  background-color: whitesmoke;
   display: flex;
   flex-direction: row;
   align-items: center;
