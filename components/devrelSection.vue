@@ -1,6 +1,6 @@
 <template>
   <section id="devrel" class="devrel-section">
-    <h1>O quê é DevRel?</h1>
+    <h1>O que é DevRel?</h1>
     <p>
       DevRel é um campo interdisciplinar em tecnologia que se concentra em
       <strong>criar, nutrir e apoiar</strong> o relacionamento entre uma empresa ou produto e pessoas desenvolvedoras ou comunidades de pessoas desenvolvedoras.

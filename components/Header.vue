@@ -4,6 +4,8 @@
     <strong class="header-title">Abacatinhos.dev</strong>
 
     <nav class="header-nav">
+      <a href="#devrel" class="header-anchor">O que é DevRel?</a>
+      <strong>|</strong>
       <a href="#sobre" class="header-anchor">Sobre a mentoria</a>
       <strong>|</strong>
       <a href="#mentora" class="header-anchor">Sobre a mentora</a>
