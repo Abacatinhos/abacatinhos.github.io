@@ -4,14 +4,10 @@
       <h1>Sobre a Mentora</h1>
       <p>
         A mentora da Abacatinhos.dev é a
-        <a
-          href="https://polywork.com/pachicodes"
-          target="_blank"
-        >PachiCodes</a>, Developer Advocate no Github, co-fundadora da
-        <a
-          href="https://Feministech.github.io"
-          target="_blank"
-        >Feministech</a>, produtora de conteúdo e streamer.
+        <a href="https://polywork.com/pachicodes" target="_blank">PachiCodes</a
+        >, Developer Advocate no Github, co-fundadora da
+        <a href="https://Feministech.github.io" target="_blank">Feministech</a>,
+        produtora de conteúdo e streamer.
       </p>
     </div>
 
@@ -25,7 +21,7 @@
 
 <script>
 export default {
-  name: "mentorSection"
+  name: 'mentorSection',
 }
 </script>
 
@@ -49,4 +45,3 @@ strong {
   border-radius: 7%;
 }
 </style>
-

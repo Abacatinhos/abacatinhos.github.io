@@ -36,7 +36,7 @@ div.app {
   outline: 0;
   vertical-align: baseline;
   background: transparent;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 100%;
 }
 section {
@@ -46,7 +46,7 @@ section {
 h1,
 h2,
 h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: var(--darkGreen);
 }
 h1 {

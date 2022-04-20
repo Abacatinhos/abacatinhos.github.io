@@ -3,7 +3,11 @@
     <div class="info">
       <h1 class="abacatinhos-title">Abacatinhos.dev</h1>
 
-      <p>Uma oportunidade para pessoas interessadas na área de DevRel ou começando nela. Assim sendo, podemos bater um papo sobre a área, esclarecer dúvidas e criar um plano de ação em conjunto.</p>
+      <p>
+        Uma oportunidade para pessoas interessadas na área de DevRel ou
+        começando nela. Assim sendo, podemos bater um papo sobre a área,
+        esclarecer dúvidas e criar um plano de ação em conjunto.
+      </p>
     </div>
     <img
       src="images/abacatinhos-logo.webp"
@@ -15,7 +19,7 @@
 
 <script>
 export default {
-  name: "HeroComponent"
+  name: 'HeroComponent',
 }
 </script>
 

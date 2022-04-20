@@ -5,7 +5,8 @@
         href="https://github.com/Abacatinhos/codigo-de-conduta"
         class="footer-anchor"
         target="_blank"
-      >Código de Conduta</a>
+        >Código de Conduta</a
+      >
       <hr class="divider solid" />
       <a href="#sobre" class="header-anchor">Sobre a mentoria</a>
       <a href="#mentora" class="header-anchor">Sobre a mentora</a>

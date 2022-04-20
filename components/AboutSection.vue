@@ -6,14 +6,17 @@
 
     <p>
       A nossa missão é
-      <strong>aumentar o conhecimento e prática das pessoas participantes da mentoria sobre a área de Devrel</strong>, podendo explorar e se especializarem na área mais ainda.
+      <strong
+        >aumentar o conhecimento e prática das pessoas participantes da mentoria
+        sobre a área de Devrel</strong
+      >, podendo explorar e se especializarem na área mais ainda.
     </p>
   </section>
 </template>
 
 <script>
 export default {
-  name: "AboutSection"
+  name: 'AboutSection',
 }
 </script>
 
@@ -30,4 +33,3 @@ strong {
   color: var(--darkGreen);
 }
 </style>
-
