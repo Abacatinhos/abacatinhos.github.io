@@ -10,5 +10,5 @@ jobs:
         uses: ashkantaravati/NuxtToGithubPages@v1.0
         with:
           username: 'abacatinhos'
-          reponame: 'abacatinhos.dev'
+          reponame: 'site-oficial'
           token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
