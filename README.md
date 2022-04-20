@@ -21,29 +21,13 @@
 
 2. Criei uma branch próprio de trabalho para não realizar _commits_ diretamente na _branch_ principal.
 
-3. Prepare o ambiente de desenvolvimento instalando as dependências, usando uma das opções abaixo:
-
-```console
-yarn install
-# ou
-npm install
-```
-
-3. Inicie o site em modo de desenvolvimento local para visualizar as suas alterações em tempo real usando:
-
-```console
-yarn dev
-# ou
-npm run dev
-```
+3. Faça suas mudanças no `index.html` e no `styles.css`
 
 4. Assim que terminar os trabalhos, abra um _pull request_ para o _branch_ principal solicitando a revisão e aprovação de outra pessoa da comunidade para evitarmos erros que possam tirar o site do ar.
 
 ## 🚀 Como é feito o _deploy_?
 
-Criamos um _workflow_ do **GitHub Actions** para automatizar a _build_ do site estático em **Nuxt**, e o _deploy_ da nova versão em uma _branch_ separada para o **GitHub Pages** a cada nova _pull request_ aprovada.
-
-Você pode encontrar informação sobre esse processo nos arquivos dentro da pasta de _workflows_.
+O deploy é feito de forma estática, utilizando o Github Pages
 
 ## 📋 Como abrir uma _issue_:
 
