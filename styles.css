@@ -98,11 +98,12 @@ strong {
 }
 
 @media screen and (max-width: 1000px) {
-  header {
-    padding: 3vh 8vw;
-    flex-direction: column;
-    justify-content: space-around;
-  }
+  .logo  {
+  display: none;
+}
+.abacatinhos-title {
+  font-size: 3ch;
+}
 }
 
 .header-nav {
@@ -128,22 +129,15 @@ strong {
 
 .hero {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
 .abacatinhos-title,
-.logo,
 p {
   margin: 0.5em 0;
 }
 
 .logo {
   width: 25%;
-}
-
-.hero>p {
-  width: 40%;
 }
 
 .hero-social-links {
