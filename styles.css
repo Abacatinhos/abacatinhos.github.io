@@ -2,7 +2,7 @@
   --green: #1e9111;
   --lightGreen: #6ac700;
   --darkGreen: #264700;
-  --blue: #2a067a;
+  --accent: #5b067a;
 }
 
 div.app {
@@ -64,8 +64,7 @@ strong {
 }
 
 a {
-  color: #2a067a;
-  color: var(--blue);
+  color: var(--accent);
 }
 
 a:hover {
