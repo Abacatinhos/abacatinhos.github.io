@@ -1,69 +1,210 @@
 <!DOCTYPE html>
-<html data-n-head-ssr lang="pt-br" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22pt-br%22%7D%7D">
-
+<html lang="pt-br">
 <head>
-  <title>abacatinhos.dev</title>
-  <meta data-n-head="ssr" charset="utf-8" />
-  <meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1" />
-  <meta data-n-head="ssr" data-hid="description" name="description" content="" />
-  <meta data-n-head="ssr" name="format-detection" content="telephone=no" />
-  <link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <link data-n-head="ssr" rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" />
-  <link data-n-head="ssr" rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abacatinhos.dev | Comunidade de DevRel</title>
+  <meta name="description" content="Uma comunidade para pessoas interessadas na área de DevRel">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
   <header>
-    <strong class="header-title">Abacatinhos.dev</strong>
-    <nav class="header-nav">
-      <a href="#devrel" class="header-anchor">O que é DevRel?</a>
+    <div class="container header-container">
+      <a href="#" class="logo-container">
+        <img src="images/logo.png" alt="Logo Abacatinhos.dev" class="header-logo">
+        <span class="logo-text">Abacatinhos.dev</span>
+      </a>
+      <nav class="main-nav">
+        <ul class="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#devrel">O que é DevRel?</a></li>
+          <li><a href="#comunidade">Comunidade</a></li>
+          <li><a href="#mentoria">Mentoria</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
   </header>
 
   <section class="hero">
-    <div class="info">
-      <h1 class="abacatinhos-title">Abacatinhos.dev</h1>
-      <p>
-        Uma comunidade para pessoas interessadas na área de DevRel ou
-        começando nela trocarem ideias,
-        tirar dúvidas e criar um plano de ação para entrar na área.
-      </p>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h1>Aprenda e cresça na carreira de DevRel</h1>
+        <p>Uma comunidade para pessoas interessadas na área de DevRel ou começando nela trocarem ideias, tirar dúvidas e criar um plano de ação para entrar na área.</p>
+        <div class="hero-buttons">
+          <a href="#comunidade" class="btn btn-primary">Entrar na comunidade</a>
+          <a href="#devrel" class="btn btn-secondary">Saiba mais</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/logo.png" alt="Logo da Abacatinhos, um abacate sorrindo" class="hero-logo">
+      </div>
     </div>
-    <img src="images/logo.png" alt="Logo da Acabatinhos, um abacate sorrindo" class="logo" />
   </section>
-  <section id="devrel" class="devrel-section">
-    <h1>O que é DevRel?</h1>
-    <p>
-      DevRel (abreviação de Developer Relations)  é um campo interdisciplinar em tecnologia que se concentra
-      em
-      <strong>criar, nutrir e apoiar</strong> o relacionamento entre uma
-      empresa ou produto e pessoas desenvolvedoras ou comunidades de
-      pessoas desenvolvedoras, interna ou externamente.
-    </p>
-    <p>
-      Os objetivos de uma pessoa em DevRel é podem variar muito, mas geralmente incluem
-      <strong>produzir conteúdo, engajar comunidades e cativar pessoas</strong>.
-    </p>
+
+  <section id="sobre" class="section-light">
+    <div class="container">
+      <div class="section-header">
+        <h2>Sobre a Abacatinhos.dev</h2>
+        <p class="section-subtitle">Crescendo juntos na comunidade de DevRel</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🌱</div>
+          <h3>Comunidade</h3>
+          <p>Um espaço seguro para aprender, compartilhar experiências e crescer profissionalmente.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🚀</div>
+          <h3>Mentoria</h3>
+          <p>Orientação especializada para quem deseja iniciar ou avançar na carreira de DevRel.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💡</div>
+          <h3>Conhecimento</h3>
+          <p>Compartilhamento de recursos, dicas e melhores práticas na área de DevRel.</p>
+        </div>
+      </div>
+    </div>
   </section>
-  
-  
- 
+
+  <section id="devrel" class="section-dark">
+    <div class="container">
+      <div class="section-header">
+        <h2>O que é DevRel?</h2>
+        <p class="section-subtitle">Developer Relations explicado</p>
+      </div>
+      <div class="devrel-content">
+        <div class="devrel-text">
+          <p>
+            DevRel (abreviação de Developer Relations) é um campo interdisciplinar em tecnologia que se concentra em
+            <strong>criar, nutrir e apoiar</strong> o relacionamento entre uma empresa ou produto e pessoas 
+            desenvolvedoras ou comunidades de pessoas desenvolvedoras, interna ou externamente.
+          </p>
+          <p>
+            Os objetivos de uma pessoa em DevRel podem variar muito, mas geralmente incluem
+            <strong>produzir conteúdo, engajar comunidades e cativar pessoas</strong>.
+          </p>
+        </div>
+        <div class="devrel-cards">
+          <div class="devrel-card">
+            <h3>Advocacia</h3>
+            <p>Representar as necessidades das pessoas desenvolvedoras dentro da empresa.</p>
+          </div>
+          <div class="devrel-card">
+            <h3>Educação</h3>
+            <p>Criar conteúdo técnico educacional para ajudar as pessoas a entenderem produtos e tecnologias.</p>
+          </div>
+          <div class="devrel-card">
+            <h3>Comunidade</h3>
+            <p>Construir e nutrir comunidades de pessoas desenvolvedoras em torno de produtos e tecnologias.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="comunidade" class="section-light">
+    <div class="container">
+      <div class="section-header">
+        <h2>Nossa Comunidade</h2>
+        <p class="section-subtitle">Junte-se a nós e cresça na carreira de DevRel</p>
+      </div>
+      <div class="community-content">
+        <p>A comunidade Abacatinhos.dev é um espaço onde pessoas interessadas em DevRel podem se conectar, compartilhar experiências e aprender juntas. Nossa missão é facilitar o crescimento profissional e pessoal de todos os membros.</p>
+        <div class="cta-box">
+          <h3>Faça parte da nossa comunidade!</h3>
+          <p>Entre no nosso Discord e comece a interagir com outras pessoas interessadas em DevRel.</p>
+          <a href="#" class="btn btn-primary">Entrar no Discord</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="mentoria" class="section-dark">
+    <div class="container">
+      <div class="section-header">
+        <h2>Mentoria</h2>
+        <p class="section-subtitle">Orientação para sua jornada em DevRel</p>
+      </div>
+      <div class="mentorship-content">
+        <div class="mentor-info">
+          <img src="images/pachi-22.jpg" alt="Foto da mentora Pachi" class="mentor-image">
+          <div class="mentor-details">
+            <h3>Pachi Codes</h3>
+            <p class="mentor-role">Mentora e fundadora da Abacatinhos.dev</p>
+            <p>Profissional com experiência em Developer Relations, ajudando pessoas a iniciarem e avançarem na carreira de DevRel.</p>
+            <div class="mentor-social">
+              <a href="#" class="social-link">Twitter</a>
+              <a href="#" class="social-link">LinkedIn</a>
+              <a href="#" class="social-link">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="mentorship-cta">
+          <h3>Interessado em mentoria?</h3>
+          <p>Entre em contato para saber mais sobre o programa de mentoria ou para agendar uma sessão.</p>
+          <a href="#" class="btn btn-secondary">Solicitar mentoria</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <footer>
-    <nav class="footer-nav">
-      <a href="https://github.com/Abacatinhos/codigo-de-conduta" target="_blank" class="footer-anchor">Código de
-        Conduta</a>
-      <hr class="divider solid" />
-      <a href="#sobre" class="header-anchor">Sobre a mentoria</a>
-      <a href="#mentora" class="header-anchor">Sobre a mentora</a>
-      <a href="#participar" class="header-anchor">Como participar</a>
-    </nav>
-    <div class="right-col">
-      <h2 class="footer-title">Abacatinhos.dev</h2>
-      <strong class="made-with">Feito com 💚</strong>
+    <div class="container footer-container">
+      <div class="footer-info">
+        <img src="images/logo.png" alt="Logo Abacatinhos.dev" class="footer-logo">
+        <h3 class="footer-title">Abacatinhos.dev</h3>
+        <p>Uma comunidade para pessoas interessadas em DevRel</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-links-column">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#devrel">O que é DevRel?</a></li>
+            <li><a href="#comunidade">Comunidade</a></li>
+            <li><a href="#mentoria">Mentoria</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-column">
+          <h4>Recursos</h4>
+          <ul>
+            <li><a href="https://github.com/Abacatinhos/codigo-de-conduta" target="_blank">Código de Conduta</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Eventos</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-column">
+          <h4>Contato</h4>
+          <ul>
+            <li><a href="#">Discord</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Email</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 Abacatinhos.dev. Todos os direitos reservados.</p>
+        <p class="made-with">Feito com 💚</p>
+      </div>
     </div>
   </footer>
-</body>
 
+  <script>
+    document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+      document.querySelector('.main-nav').classList.toggle('active');
+      this.classList.toggle('active');
+    });
+  </script>
+</body>
 </html>
